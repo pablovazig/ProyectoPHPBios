@@ -1,0 +1,241 @@
+/*ESTILOS PARA ATHLETIC.WEB*/
+
+/* ------------------------------------------------------------------ */
+/* a. Fuentes e Iconos
+ ------------------------------------------------------------------ */
+
+@import url("fonts.css");
+@import url("font-awesome/css/font-awesome.min.css");
+
+/* ------------------------------------------------------------------ */
+/* b. Estilos
+ ------------------------------------------------------------------ */
+
+
+html, body, div,
+h1, h2, 
+fieldset, form, legend,
+table, tr, th, td {
+   margin: 10px;
+   padding: 10px;
+   border: 0;
+   outline: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   background: transparent;
+}
+
+p {
+    margin: 10px 40px 50px 0px;
+    color: black;
+}
+
+table {
+   border-collapse: collapse;
+   border-spacing: 0;
+}
+
+td {
+   margin: 20px 0px 10px 0px;
+   padding: 10px; 
+}
+
+body {
+	font: 15px/30px opensans-regular, sans-serif;
+	color: black;
+   -webkit-font-smoothing: antialiased; 
+	-webkit-text-size-adjust: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   color: black;
+   font-family: montserrat-regular, sans-serif;
+   text-align: center;
+   text-shadow: 2px 2px #908888;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+h1 { font-size: 42px; line-height: 48px; margin-bottom: 12px;}
+h2 { font-size: 30px; line-height: 42px; margin-bottom: 6px; }
+
+p { margin: 0 0 24px 0; }
+p img { margin: 0; }
+p.lead { font: 20px/36px opensans-light, sans-serif; }
+
+p a, p a:visited { line-height: inherit; }
+
+img {
+   max-width: 100%;
+   height: auto;
+}
+
+img.pull-right { margin: 12px 0px 0px 18px; }
+img.pull-left { margin: 12px 18px 0px 0px; }
+
+
+
+/* ------------------------------------------------------------------ */
+/* c. Botones
+ ------------------------------------------------------------------ */
+.button{
+text-decoration:none; text-align:center; 
+ padding:11px 32px; 
+ border:solid 1px #004F72; 
+ -webkit-border-radius:4px;
+ -moz-border-radius:4px; 
+ border-radius: 4px; 
+ font:18px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#E5FFFF; 
+ background-color:#29b7e6; 
+ background-image: -moz-linear-gradient(top, #29b7e6 0%, #076585 100%); 
+ background-image: -webkit-linear-gradient(top, #29b7e6 0%, #076585 100%); 
+ background-image: -o-linear-gradient(top, #29b7e6 0%, #076585 100%); 
+ background-image: -ms-linear-gradient(top, #29b7e6 0% ,#076585 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#076585', endColorstr='#076585',GradientType=0 ); 
+ background-image: linear-gradient(top, #29b7e6 0% ,#076585 100%);   
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ opacity: 1.0; 
+ }
+ .button:hover{
+ padding:11px 32px; 
+ border:solid 1px #004F72; 
+ -webkit-border-radius:4px;
+ -moz-border-radius:4px; 
+ border-radius: 4px; 
+ font:18px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#E5FFFF; 
+ background-color:#025b78; 
+ background-image: -moz-linear-gradient(top, #025b78 0%, #1982a5 100%); 
+ background-image: -webkit-linear-gradient(top, #025b78 0%, #1982a5 100%); 
+ background-image: -o-linear-gradient(top, #025b78 0%, #1982a5 100%); 
+ background-image: -ms-linear-gradient(top, #025b78 0% ,#1982a5 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1982a5', endColorstr='#1982a5',GradientType=0 ); 
+ background-image: linear-gradient(top, #025b78 0% ,#1982a5 100%);   
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+ opacity: 1.0; 
+ }
+ .button:active{
+ padding:11px 32px; 
+ border:solid 1px #004F72; 
+ -webkit-border-radius:4px;
+ -moz-border-radius:4px; 
+ border-radius: 4px; 
+ font:18px Arial, Helvetica, sans-serif; 
+ font-weight:bold; 
+ color:#E5FFFF; 
+ background-color:#01202b; 
+ background-image: -moz-linear-gradient(top, #01202b 0%, #055f7d 100%); 
+ background-image: -webkit-linear-gradient(top, #01202b 0%, #055f7d 100%); 
+ background-image: -o-linear-gradient(top, #01202b 0%, #055f7d 100%); 
+ background-image: -ms-linear-gradient(top, #01202b 0% ,#055f7d 100%); 
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#055f7d', endColorstr='#055f7d',GradientType=0 ); 
+ background-image: linear-gradient(top, #01202b 0% ,#055f7d 100%);   
+ -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+ -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+ box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+ opacity: 1.0;   
+ }
+
+/* ------------------------------------------------------------------ */
+/* d. Otros
+ ------------------------------------------------------------------ */
+
+
+form { 
+    margin-bottom: 24px; 
+}
+fieldset { margin-bottom: 24px; }
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+   display: block;
+   padding: 18px 18px;
+   border: 0;
+   outline: none;
+   vertical-align: bottom;
+   min-width: 250px;
+	max-width: 100%;
+   font-size: 15px;
+   line-height: 24px;
+	color: black;
+	background: #ACB1B5;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+   color: #fff;
+	background-color: #3d4145;
+}
+
+textarea { min-height: 180px; }
+
+label,
+legend {
+   font: 14px/24px opensans-bold, sans-serif;
+	margin: 12px 0;
+   color: black;
+   display: block;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+   font-size: 15px;
+   color: #737373;
+}
+
+input[type="checkbox"] { display: inline; }
+
+label span,
+legend span {
+   color: black;
+   font: 14px/24px opensans-regular, sans-serif;
+}
+
+#contenido {
+   margin: 15% 0% 10% 0%;
+   background-color: rgba(255,255,255,0.8);
+}
+
+#menu {
+   margin-right: 500px;
+}
+
+#frm {
+   padding: 18px 18px;
+   margin: 0 0 24px 0;
+   border: 0;
+   outline: none;
+   vertical-align: middle;
+   min-width: 250px;
+	max-width: 100%;
+   font-size: 15px;
+   line-height: 24px;
+   color: black;
+}
+
+#opciones {
+   background-color: rgba(255,255,255,0.8);
+}
+
+#cuadroconsulta {
+   background-color: rgba(255,255,255,0.8);
+}
+/* ------------------------------------------------------------------ */
+/* d. Imágenes
+ ------------------------------------------------------------------ */
+ body {
+  background-image: url("images/corredores.jpg");   
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+ }
